@@ -5,7 +5,7 @@
 <h1 align="center">SquidBricks: Open-Access Biomedical Literature Screening</h1>
 
 <p align="center">
-  A Google Colab workflow for searching PubMed Central, downloading open-access BioC XML articles, extracting article passages, keyword-screening evidence, reranking candidate chunks, and using an LLM to classify relevant PMC articles.
+  A Google Colab workflow for searching PubMed Central, keyword-screening evidence, reranking candidate paragraphs, and using an LLM to classify relevant PMC articles.
 </p>
 
 ---
