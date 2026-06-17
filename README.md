@@ -712,23 +712,3 @@ For careful screening:
 6. Continue manually or use the automatic loop for the remaining subgroup files.
 
 This approach keeps the pipeline auditable and reduces the chance of accepting incorrect model decisions.
-
----
-
-## Notes
-
-- The notebook only downloads articles available as open-access BioC XML.
-- Articles that are not available as BioC XML are listed in `bioc_unavailable_or_failed_articles.csv`.
-- Changing the Colab runtime clears `/content`, so saving the CPU checkpoint before switching to GPU is essential.
-- The final LLM decision depends on the screening question and True/False rules provided by the user.
-- Keep `SquidBricks-Copy.png` in the same GitHub folder as `README.md` so the logo appears at the top of the GitHub page.
-
----
-
-## Repository files
-
-```text
-README.md
-SquidBricks-Copy.png
-open_access_screening_final.ipynb
-```
